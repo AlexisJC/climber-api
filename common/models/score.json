@@ -1,0 +1,27 @@
+{
+  "name": "score",
+  "plural": "ladder",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "player": {
+      "type": "string"
+    },
+    "floor": {
+      "type": "number"
+    },
+    "credits": {
+      "type": "number"
+    },
+    "xp": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
